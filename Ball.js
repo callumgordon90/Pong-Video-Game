@@ -1,5 +1,5 @@
 export default class Ball {
-    constructor(ball) {
+    constructor(ballElem) {
         this.ballElem = ballElem
     }
 }
