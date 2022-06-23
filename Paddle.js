@@ -4,6 +4,7 @@ const SPEED = 0.2
 export default class Paddle {
     constructor(paddleElem) {
         this.paddleElem = paddleElem
+        this.reset()
     }
 
     get position() {
@@ -13,6 +14,11 @@ export default class Paddle {
     set position(value) {
         this.paddleElem.style.setProperty("--position", value)
     }
+
+
+reset() {
+    this.position = 50
+}
 
 
     //function to control computer paddle position:
