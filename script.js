@@ -15,7 +15,7 @@ let lastTime
 function update(time) {
     if (lastTime != null) {
         const delta = time - lastTime
-        //ball.update(delta) 
+        ball.update(delta, [playerPaddle.rect(), computerPaddle.rect()])  // THE LINE WHICH STARTS THE BALL MOVING
        computerPaddle.update(delta, ball.y)
 
        if (isLose()) handleLose() 
