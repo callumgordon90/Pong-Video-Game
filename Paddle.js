@@ -27,9 +27,7 @@ export default class Paddle {
     //function to control computer paddle position:
     update(delta, ballHeight) {
         this.position += SPEED * delta * (ballHeight - this.position)
-    }
-
-
+      }
 
 
 }

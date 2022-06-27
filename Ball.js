@@ -37,14 +37,14 @@ export default class Ball {
         this.y = 50
         this.direction = { x: 0 }
         while (
-            Math.abs(this.direction.x) <= .2 ||
-            Math.abs(this.direction.x) >= .9
+          Math.abs(this.direction.x) <= 0.2 ||
+          Math.abs(this.direction.x) >= 0.9
         ) {
-            const heading = randomNumberBetween(0, 2 * Math.PI)
-            this.direction = { x: Math.cos(heading), y: Math.sin(heading) }
+          const heading = randomNumberBetween(0, 2 * Math.PI)
+          this.direction = { x: Math.cos(heading), y: Math.sin(heading) }
         }
         this.velocity = INITIAL_VELOCITY
-    }
+      }
 
     update(delta, paddleRects) {
         this.x += this.direction.x * this.velocity * delta
