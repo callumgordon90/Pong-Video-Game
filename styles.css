@@ -56,6 +56,7 @@ body {
     font-weight: bold;
     font-size: 7vh;
     color: var(--foreground-color);
+    font-family:'Press Start 2P'
 }
 
 /* makes sure that exatcly half of the screen is taken up by one score, and half of the screen is taken up by the other score*/
