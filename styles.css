@@ -6,9 +6,9 @@
 
 :root {
     --hue: 200;
-    --saturation: 50%;
-    --foreground-color: hsl(var(--hue), var(--saturation), 75%);
-    --background-color: hsl(var(--hue), var(--saturation), 20%);
+    --saturation: 70%;
+    --foreground-color: hsl(var(--hue), var(--saturation), 100%);
+    --background-color: hsl(var(--hue), var(--saturation), 30%);
 }
 
 body {
