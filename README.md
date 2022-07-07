@@ -27,7 +27,7 @@ This is a video game (Pong clone) which I made with Vanilla Javascript, HTML and
 I did this project because I wanted to improve my understanding of Javascript; both the syntax and structure of the language, as well as how to use functions to create interactivity and change the output which is displayed to the client. 
 
 It was an interesting project for me which taught me quite a few new things and I will continue to make more in the future!
-```
+
 The game contains the following functions:
 
 * A player paddle controlled by the user's mouse
