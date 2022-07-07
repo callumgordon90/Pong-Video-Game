@@ -72,21 +72,21 @@ right click on 'index.html' and click 'open with Live Server'
 
 ## Technologies used in the project:
 ```
-* **html**: Markup language to display everything
+* html: Markup language to display everything
 ```
 
 ```
-* **css**: to design the elements used in the game
+* css: to design the elements used in the game
 ```
 
 ```
-* **javascript**: to add interactivity
+* javascript: to add interactivity
 ```
 
 
 ## Explanation of the structure of the project
 
-The **Ball.js** file contains all of the javascript code for the ball element. 
+* The **Ball.js** file contains all of the javascript code for the ball element. 
 
 * The **Paddle.js.**: file contains all of the javascript code for the paddle element. Seperating the code out in this way and dividing the paddle and the ball into their own files makes everything easier to read and understand. 
 
