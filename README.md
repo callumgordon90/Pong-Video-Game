@@ -21,7 +21,7 @@ Click [here](https://github.com/callumgordon90/Pong-Video-Game) to download the 
  DISCLAIMER:  I made this project by following a tutorial on Web Dev. It is NOT an original creation by me, but rather something I made following and improving upon a pre-existing guide in order to learn and improve my own skills as a programmer. 
 
 --------------
-```
+
 This is a video game (Pong clone) which I made with Vanilla Javascript, HTML and CSS. The frames of animation are updated continiously on a loop, and there are seperated functions to control the movement of the ball, the paddles and to update the score as well as take in inputs from the mouse.
 
 I did this project because I wanted to improve my understanding of Javascript; both the syntax and structure of the language, as well as how to use functions to create interactivity and change the output which is displayed to the client. 
