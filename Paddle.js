@@ -30,3 +30,5 @@ export default class Paddle {
     this.position += SPEED * delta * (ballHeight - this.position)
   }
 }
+
+//test 1
